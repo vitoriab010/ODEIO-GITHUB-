@@ -24,8 +24,8 @@
         <select name="opçao" id="">
             <option value="twitch">Twitch</option>
             <option value="youtube">Youtube</option>
-            <button type="submit"> Calcular</button>
         </select>
+         <button type="submit"> Calcular</button>
     </form>
 
     <?php 
