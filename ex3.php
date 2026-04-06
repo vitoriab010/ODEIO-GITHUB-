@@ -26,7 +26,7 @@
             <option value="medio">Média</option>
             <option value="hard">Difício</option>
         </select>
-        <button type="submit"></button>
+        <button type="submit">Calcular</button>
     </form>
 
     <?php 
@@ -43,8 +43,10 @@
                 $base = $base * 2.0;
             }
 
-            while($base > 1000){
+            if($base > 1000){
                 echo"PARABÉNS! vôce subiu para o nível ". $nivelAt+1;
+            } else{
+                echo"seu nivel é  ". $nivelAt;
             }
 
         } 
