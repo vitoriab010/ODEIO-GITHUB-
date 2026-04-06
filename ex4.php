@@ -38,11 +38,12 @@
             if ($option == "twitch"){
                 $subs = $subs * 0.5;
             } else {
-                $subs = $subs* 0.3;
+                $subs = $subs* 0.7;
             }
 
             $valortotal = $subs + $donates;
 
+            echo "saldo é " . $valortotal;
             if ($valortotal < 100){
                 echo "saldo insuficiente para saque";
 
