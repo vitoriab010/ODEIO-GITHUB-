@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url("han-wei-sheng-GI8yg0ZNMXs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: 1000;
+    background: rgba(90, 6, 94, 0.17);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+border: 1px solid rgba(90, 6, 94, 0.3);
+
+}
+a{
+    font-weight:500;
+    color: rgb(200, 138, 255);
+    text-decoration: none;
+}
+
+.form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width:30vw ;
+    height: 30vh;
+    border: 1px solid rgba(128, 128, 128, 0.966);
+    border-radius: 5%;
+    gap: 8px;
+    padding: 5px 8px;
+    /* From https://css.glass */
+background: rgba(90, 6, 94, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+border: 1px solid rgba(90, 6, 94, 0.3);
+}
+
