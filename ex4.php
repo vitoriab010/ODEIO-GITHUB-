@@ -43,10 +43,10 @@
 
             $valortotal = $subs + $donates;
 
-            echo "saldo é " . $valortotal;
-            if ($valortotal < 100){
-                echo "saldo insuficiente para saque";
-
+            if ($valortotal > 100){
+                echo "saldo é " . $valortotal;
+            } else {
+                 echo "saldo insuficiente para saque. O valor é: ". $valortotal;
             }
 
         }

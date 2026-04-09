@@ -38,7 +38,7 @@
         }
         $resultado = $valor - ($desconto +$desconto2);
         
-        echo "Valor inicial " . $valor . "Descontos " . $desconto . $desconto2 . "Valor final " . $resultado;
+        echo "Valor inicial: " . $valor . "Descontos: " . $desconto . $desconto2 . "Valor final: " . $resultado;
 
     }
     ?>

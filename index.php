@@ -59,7 +59,7 @@
             $resultado += $resultado* 1.20;
         }
 
-        echo "o resultado é". number_format($resultado,2);
+        echo "o resultado é:  ". number_format($resultado,2);
 
 
     }

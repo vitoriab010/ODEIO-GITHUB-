@@ -24,7 +24,7 @@
         <select name="opçao" id="">
             <option value="facil">Fácil</option>
             <option value="medio">Média</option>
-            <option value="hard">Difício</option>
+            <option value="hard">Difícil</option>
         </select>
         <button type="submit">Calcular</button>
     </form>
